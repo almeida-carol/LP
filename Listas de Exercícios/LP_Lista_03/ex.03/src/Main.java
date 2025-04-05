@@ -13,7 +13,9 @@ public class Main {
        score2 = in.nextDouble();
 
        mean = (score1+score2)/2;
-       System.out.println("Média = ");
+       System.out.println("Média = "+ mean);
+
+        System.out.println(mean<=50?"Reprovado":"Aprovado");
 
     }
 }
